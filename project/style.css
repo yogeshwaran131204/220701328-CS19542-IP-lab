@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('rec2.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: moveBg 20s linear infinite;
+    transition: transform 5s ease; 
+}
+body:hover {
+    transform: scale(1.1); 
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('rec1.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: moveBg 20s linear infinite;
+    transition: transform 5s ease; /* Smooth zoom effect */
+}
+.one {
+    width: 100px; 
+    height: 100px; 
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove borders */
+    border-radius: 50%; /* Make it round */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    top: 35px;
+    left: 80px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+* Hover effect */
+        .one:hover {
+            background-color: #144f17;
+        }
+
+        /* Active effect when the button is clicked */
+        .one:active {
+            background-color: #3e8e41;
+        }
+.two
+{
+    position: relative;
+    bottom: 200px;
+}
+.one1 {
+    width: 100px; 
+    height: 60px; 
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Make it round */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    top: 20px;
+    left: 80px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}    
+        * Hover effect */
+                .one:hover {
+                    background-color: #144f17;
+                }
+        
+                /* Active effect when the button is clicked */
+                .one:active {
+                    background-color: #3e8e41;
+                }
+        
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('rec2.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+.butto {
+    width: 100px; 
+    height: 100px; 
+    background-color:#4CAF50 ; /* Green */
+    border: none; /* Remove borders */
+    color: white; /* Text color */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Make it inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 50%; /* Rounded corners */
+    position: relative;
+    left: 80px;
+    align-items: center;
+    top: 35px;
+}
+.butto:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+.one1
+{
+    position: relative;
+    bottom: 200px;
+}
+#content {
+    min-height: 300px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #c46464;
+    
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.view {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}

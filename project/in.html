@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="two">  <h1> RAJALAKSHMI ENGINEERING COLLEGE</h1></div>
+   
+    <div class="container">
+        
+        <div class="login-form">
+            <h2>Student Login</h2>
+            <form id="studentLoginForm">
+                <input type="text" id="studentUsername" placeholder="Username" required>
+                <input type="password" id="studentPassword" placeholder="Password" required>
+                <a href="home.html" class="one1"> Login </a>  
+                <div id="studentError" class="error"></div>
+            </form>
+        </div>
+
+        <div class="login-form">
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+                <input type="text" id="adminUsername" placeholder="Username" required>
+                <input type="password" id="adminPassword" placeholder="Password" required>
+                <a href="admin.html" class="one1"> Login </a> 
+                <div id="adminError" class="error"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
